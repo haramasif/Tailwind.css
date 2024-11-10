@@ -4,12 +4,12 @@ import Navbar from './Navbar'
 const Hero = () => {
   return (
     <div id ="hero" className='min-h-screen bg-no-repeat bg-[url(/Profile.jpeg)] bg-left lg:bg-[15%] bg-cover'
-    style={{backgroundSize: "30%", backgroundPosition: "left 100px top 100px"}}
+    style={{backgroundSize: "30%", backgroundPosition: "left 80px"}}
     >
         <Navbar/>
         <div className='container grid lg:grid-cols-2 h-[100vh-60px)]'>
             <div className='hidden lg:block'></div>
-            <div className='text-[30px] sm:text-[30px] font-bold leading-tight flex justify-right item'>
+            <div className='text-[20px] sm:text-[20px] font-bold leading-tight flex justify-right item'>
                 <div>
     
                     My Introduction.Hi, I'm Haram!
